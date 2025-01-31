@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+}
+
+#contact-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact-hero p {
+    font-size: 1.1rem;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contact-details {
+    width: 45%;
+}
+
+.contact-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+#contact-form {
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    display: block;
+    font-size: 1rem;
+    margin: 0.5rem 0 0.2rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #1e2ad1;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #67c2c5;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #82cfd3;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>38 Infinity</h1>
+        </div>
+    </header>
+
+    <section id="contact-hero">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether you have a question, feedback, or just want to say hello, reach out to us.</p>
+    </section>
+
+    <section id="contact-info">
+        <div class="contact-details">
+            <h3>Contact Information</h3>
+            <p><strong>Address:</strong> KAVUMU TSS, Nyanza, Rwanda</p>
+            <p><strong>Phone:</strong> +250 783 509 778</p>
+            <p><strong>Email:</strong> iradukundapatience028@gmail.com</p>
+            <p><strong>Instagram:</strong> 38_Infinity</p>
+            <p><strong>Youtube:</strong> 38 Infinity</p>
+            <p><strong>Facebook:</strong> 38_Infinity</p>
+        </div>
+        <div class="contact-map">
+            <!-- Placeholder for map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799173318!2d-74.25986532084822!3d40.697670063653125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQwJzAyLjgiTiA3NMKwMTUnNDIuMCJX!5e0!3m2!1sen!2s!4v1587191146283!5m2!1sen!2s" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <h3>Send Us a Message</h3>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 38 38_Infinity. All rights reserved.</p>
+    </footer>
+</body>
+</html>
